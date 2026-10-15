@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="standingpigs"
+version="1.0.0"
+displayName="Standing Pigs"
+description='''
+Pigs stand up on two legs and walk like people, with arm swing and a little waddle.
+'''
+
+[[dependencies.standingpigs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.standingpigs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
